@@ -1,5 +1,5 @@
-import Task from "../models/task.js";
-import ActivityLog from "../models/activitylog.js";
+import Task from "../models/Task.js";
+import ActivityLog from "../models/ActivityLog.js";
 import { getIO } from "../socket.js";
 
 const emitSocketEvent = (boardId, workspaceId, eventName, payload) => {

@@ -1,8 +1,8 @@
-import Workspace from "../models/workspace.js";
-import Board from "../models/board.js";
-import ActivityLog from "../models/activitylog.js";
-import Invitation from "../models/invitation.js";
-import User from "../models/user.js";
+import Workspace from "../models/Workspace.js";
+import Board from "../models/Board.js";
+import ActivityLog from "../models/ActivityLog.js";
+import Invitation from "../models/Invitation.js";
+import User from "../models/User.js";
 import { getIO } from "../socket.js";
 
 const emitSocketToUser = (userId, eventName, payload) => {
