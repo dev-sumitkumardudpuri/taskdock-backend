@@ -1,4 +1,4 @@
-import Workspace from "../models/workspace.js";
+import Workspace from "../models/Workspace.js";
 import mongoose from "mongoose";
 
 export const checkWorkspaceRole = (allowedRoles = ["admin", "member"]) => {
